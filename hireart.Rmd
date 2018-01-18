@@ -34,8 +34,11 @@ df$Date.of.Contact <- as.Date(df$Date.of.Contact)
 
 
 Before we dig into the data, I set up three criteras for the best month for announcement:
+
 - A high number of contacts
+
 - A high number of clients getting contacted
+
 - The prediction is predictable and reliable
 
 At first, I will take a glance at the frequency of contacts made in the dataset.

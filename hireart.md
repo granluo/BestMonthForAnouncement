@@ -1,8 +1,18 @@
+# Best Month
+## Zongran Luo
+### 1/17/2018
+
 In this project, I will decide a month which is the best to anounce an upgrade. Since this project is to determine a month for announcement based on a small dataset with 1001 rows of data between October 2013 and September 2017, I will not use regression or machine learning for predictions, which may require more data for the accuracies of result. I will first use data exploration to go over the dataset to see if we can find out an oustanding month intuitively. If no months could be found, I will use hypothesis and regression to find out a month with high correlations with clients and contacts.
 
 In this datase, we have 4 managers and 35 clients. The data is from October 2013 to September 2017. To roughly find out the month, I will use data visualization most of the time to find out the trends, from which the month could be found hopefully.
 
-Before we dig into the data, I set up three criteras for the best month for announcement: - A high number of contacts - A high number of clients getting contacted - The prediction is predictable and reliable
+Before we dig into the data, I set up three criteras for the best month for announcement: 
+
+- A high number of contacts 
+
+- A high number of clients getting contacted 
+
+- The prediction is predictable and reliable
 
 At first, I will take a glance at the frequency of contacts made in the dataset.
 
