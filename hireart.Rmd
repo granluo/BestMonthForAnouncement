@@ -83,6 +83,7 @@ ggplot(avg_contact_per_month,aes(factor(Month),y = avg_contact, group = 1))+
 So now we know October has the highest contacts. However, we need to inform most clients instead of making more contacts. We need to make sure these contacts cover as many clients as possible. 
 
 First of all we need to make sure all clients are all involved from 2013 to 2016. The table below shows the number of contacts clients received around a year from 2013 to 2017.
+
 ```{r}
 number_of_contacts_yearly = data.frame(dt[,.N,by=.(Client.Name,year(Date.of.Contact))])
 cast(number_of_contacts_yearly,Client.Name~year)
@@ -106,6 +107,7 @@ ggplot(number_of_contacts_monthly,aes(x = factor(month)))+
 We have 35 clients in total. In order to contact the most clients, we need to find out a month that has the most distinct clients getting contacted. October is the month that has the most different clients getting contacted around the year from 2013 to 2016. In terms of the number of contacted clients over a year, October is still the best month for announcements.
 
 Last but not least, we need to make sure four account managers are reliable, so we can have a higher confidence for the month we pick.
+
 ```{r}
 sumdf <- data.frame(dt[,.N,by=.(Account.manager,year(Date.of.Contact),month(Date.of.Contact))])
 ggplot(sumdf,aes(x=factor(month), y = N))+
