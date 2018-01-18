@@ -16,15 +16,15 @@ Before we dig into the data, I set up three criteras for the best month for anno
 
 At first, I will take a glance at the frequency of contacts made in the dataset.
 
-![](hireart_files/figure-markdown_github/unnamed-chunk-3-1.png)
+![](https://github.com/ollkorrect/BestMonthForAnouncement/blob/master/hireart_files/figure-markdown_github/unnamed-chunk-3-1.png?raw=true)
 
 From the graph, we can see the data started from October 2013 to September 2017. Based on the trend, we can see October has the most contacts, but we still don't know if this trend will be the same in the future.
 
-![](hireart_files/figure-markdown_github/unnamed-chunk-4-1.png)
+![](https://github.com/ollkorrect/BestMonthForAnouncement/blob/master/hireart_files/figure-markdown_github/unnamed-chunk-4-1.png?raw=true)
 
 Five trends above show the contacts in five years between 2013 and 2017. We can see October always stayed the eak from 2013 to 2016. We can see the trend of September going up as well. However, we can also discover that the number of contacts in the peak, October, is going down by year from 2013, though it does not affect the fact that the number of contacts in that month is the highest among a year. From the graph above, we can roughly say the trend of contacts for a year is relatively stable and it is predictable for the peak in a year. Based on the analysis above, I generate a average line to show the trend of the number of contacts by months.
 
-![](hireart_files/figure-markdown_github/unnamed-chunk-5-1.png)
+![](https://github.com/ollkorrect/BestMonthForAnouncement/blob/master/hireart_files/figure-markdown_github/unnamed-chunk-5-1.png?raw=true)
 
 So now we know October has the highest contacts. However, we need to inform most clients instead of making more contacts. We need to make sure these contacts cover as many clients as possible.
 
@@ -69,13 +69,13 @@ First of all we need to make sure all clients are all involved from 2013 to 2016
 
 All clients are contact at least once around a year from 2013 to 2017, even though 2013 has 3 months and 2017 has 9 months in record.
 
-I made a list for contacted clients in each month shown below. ![](hireart_files/figure-markdown_github/unnamed-chunk-7-1.png)
+I made a list for contacted clients in each month shown below. ![](https://github.com/ollkorrect/BestMonthForAnouncement/blob/master/hireart_files/figure-markdown_github/unnamed-chunk-7-1.png?raw=true)
 
 We have 35 clients in total. In order to contact the most clients, we need to find out a month that has the most distinct clients getting contacted. October is the month that has the most different clients getting contacted around the year from 2013 to 2016. In terms of the number of contacted clients over a year, October is still the best month for announcements.
 
 Last but not least, we need to make sure four account managers are reliable, so we can have a higher confidence for the month we pick.
 
-![](hireart_files/figure-markdown_github/unnamed-chunk-8-1.png)
+![](https://github.com/ollkorrect/BestMonthForAnouncement/blob/master/hireart_files/figure-markdown_github/unnamed-chunk-8-1.png?raw=true)
 
 These four managers have similar working loads around the year and all have relatively high loads on Septembers and Octobers. From four years, their contacts are relatively stable, due to the lower number of outliers, marked as red, in the graph. Their works are preditable.
 
