@@ -2,7 +2,9 @@
 title: "The Best Month"
 author: "Zongran Luo"
 date: "January 17, 2018"
-output: html_document
+output:
+  md_document:
+    variant: markdown_github
 ---
 
 ```{r setup, include=FALSE}
