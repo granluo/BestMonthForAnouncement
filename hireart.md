@@ -63,7 +63,9 @@ I made a list for contacted clients in each month shown below. ![](hireart_files
 
 We have 35 clients in total. In order to contact the most clients, we need to find out a month that has the most distinct clients getting contacted. October is the month that has the most different clients getting contacted around the year from 2013 to 2016. In terms of the number of contacted clients over a year, October is still the best month for announcements.
 
-Last but not least, we need to make sure four account managers are reliable, so we can have a higher confidence for the month we pick. ![](hireart_files/figure-markdown_github/unnamed-chunk-8-1.png)
+Last but not least, we need to make sure four account managers are reliable, so we can have a higher confidence for the month we pick.
+
+![](hireart_files/figure-markdown_github/unnamed-chunk-8-1.png)
 
 These four managers have similar working loads around the year and all have relatively high loads on Septembers and Octobers. From four years, their contacts are relatively stable, due to the lower number of outliers, marked as red, in the graph. Their works are preditable.
 
